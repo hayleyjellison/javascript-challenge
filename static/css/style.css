@@ -8,6 +8,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background-color: plum;
 }
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
@@ -25,7 +26,8 @@ body {
   bottom: 0;
   left: 0;
   min-height: 100px;
-  background: #4e5d6c;
+  background-image: url(alien_head_2.jpg);
+  background-size: 860px 70px;
 }
 
 /* The code styles the text at the bottom of the footer */
@@ -35,12 +37,13 @@ body {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background: #1b3146;
+  background: #DE84FF;
 }
 
 .navbar {
   padding: 5px;
   margin: 0;
+  background-color: plum;
 }
 
 /* This CSS styles the ufo icon in the navbar */
@@ -98,7 +101,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("https://www.muralswallpaper.com/app/uploads/cartoon-ufo-childrens-plain-820x532.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -108,6 +111,7 @@ select {
   margin-top: 200px;
   font-size: 0.1rem;
   animation: title 1.2s forwards linear;
+  color: palevioletred;
 }
 
 .hero p {
@@ -115,6 +119,7 @@ select {
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
+  color: rgb(121, 216, 112);
 }
 
 /* input placeholder color changes */
@@ -222,4 +227,22 @@ select {
   to {
     opacity: 1;
   }
+}
+
+.list-group-item {
+  background-color: rgb(202, 191, 255);
+}
+
+.panel-default>.panel-heading {
+  background-color: rgb(192, 193, 255);
+  color: #ebebeb;
+}
+
+form,
+body {
+  background-color: rgb(202, 191, 255);
+}
+
+.btn-default {
+  background-color: #8bd8d8;
 }
